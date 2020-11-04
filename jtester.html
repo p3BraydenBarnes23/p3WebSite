@@ -1,0 +1,45 @@
+<html>
+<head>
+<script language = "JavaScript">
+
+var number = 0; // global variable exists while page is loaded
+function tester()
+{
+
+	// var answer = confirm("Do you want to quit");// Creates a new variable and stores the users response. 
+	// var answer = prompt("What is your name?");// Creates a new variable and stores the users response. 
+	// "Text" == string literal
+	// alert("Welcome to my page, "+ answer + ". Hope you like it.");
+
+
+	number = number - 1; // semi colon indicates end of a line
+	
+	if( number == 0 )   // == test equality (does right EQUAL the left side???)
+	{
+		alert("Blastoff!!");
+	}
+	else // if condition above is NOT met
+	{
+		alert("number");
+	}
+}
+
+
+}
+
+
+</script>
+
+</head>
+<body>
+<center> 
+<h1> JavaScript Tester </h1>
+
+<br/>
+<br/>
+
+<input type="button" value="Click Me" onClick="tester()">
+
+</center>
+</body>
+</html>
